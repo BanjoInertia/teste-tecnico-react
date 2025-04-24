@@ -1,6 +1,7 @@
 {
   "name": "teste-tecnico-react",
   "private": true,
+  "homepage": "https://banjoInertia.github.io/teste-tecnico-react",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
