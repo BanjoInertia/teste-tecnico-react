@@ -1,0 +1,36 @@
+.profile_search_display {
+    width: 70%;
+    height: 650px;
+    background-color: var(--text-on-card);
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+}
+
+.profile_search_section {
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_results_section {
+    height: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    .profile_search_display {
+        width: 90%;
+        height: 700px;
+    }
+
+    .profile_search_section {
+        height: 30%;
+    }
+    
+    .profile_results_section {
+        height: 70%;
+    }
+}
